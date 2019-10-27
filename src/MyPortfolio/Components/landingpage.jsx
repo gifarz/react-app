@@ -10,13 +10,15 @@ class Landing extends Component {
             
                 <div className="header">
                     <Typist>
-                        <h1> Welcome To My Website
+                        <Typist.Delay ms={2000}/>
+                        <h1 style={{color: '#ebebeb'}}> Welcome To My Website
                         <Typist.Backspace count={10} delay={2000}/>
                         <Typist.Delay ms={1000}/>
                         My Portfolio</h1>
                         <Typist.Delay ms={500}/>
                         <Typist.Backspace count={23} delay={1000}/>
-                        <h1> Muhammad Gifar Zaini </h1>
+                        <h1> M. Gifar Zaini </h1>
+                        <p className="gelar">Bachelor of Science</p>
                     </Typist>
                     <p>Geophysicist | Frontend Developer</p>
                     <img src={Foto} alt="Foto"/>

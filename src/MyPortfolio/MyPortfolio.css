@@ -6,7 +6,7 @@
 /* HEADER */
 .header {
     background: url(../background.jpg) no-repeat center center;
-    height: 600px;
+    height: 650px;
     position: relative;
 }
 
@@ -16,20 +16,25 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    font-size: 42px;
-    margin-top: 385px;
+    font-size: 70px;
+    margin-top: 360px;
     text-shadow: 3px 1px 1px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
     
 }
 
 .header p {
-    margin-top: 450px;
+    margin-top: 530px;
     position: absolute;
     text-align: center;
     width: 100%;
     color: white;
-    font-size: 23px;
+    font-size: 28px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+
+.header .gelar {
+    margin-top: 460px;
+    color: rgba(204, 204, 204, 0.705);
 }
 
 .header img {
@@ -37,7 +42,7 @@
     height: auto;
     width: 200px;
     left: 50%;
-    top: 35%;
+    top: 32%;
     transform: translate(-50%, -50%);
     border: 2px solid rgb(252, 252, 252);
     border-radius: 70%;
@@ -56,7 +61,7 @@
 .social-links {
     width: 100%;
     position: absolute;
-    margin-top: 510px;
+    margin-top: 570px;
     text-align: center;
 }
 
